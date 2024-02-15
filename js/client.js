@@ -20,9 +20,9 @@ const append = (message, position) => {
     messageElement.classList.add('message');
     messageElement.classList.add(position);
     messageContainer.append(messageElement);
-    // if(position==='left'){
-    //     audio.play()
-    // }
+     if(position==='left'){
+         audio.play()
+     }
     
 }
 
